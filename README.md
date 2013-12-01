@@ -1,6 +1,6 @@
-404-page
+Parallax 404 Page
 ========
 
-404 parallax page made for lastorderofthejedi.com
+404 parallax page with Yoda ( StarWars )
 
 - Parallax.js used
