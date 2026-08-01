@@ -14,12 +14,42 @@
 
 	<div id="container" class="container">
 		<ul id="scene" class="scene">
-		<li class="layer" data-depth="0.00"><img src="images/bg.png"></li>
-		<li class="layer" data-depth="0.60"><img src="images/bg-layer-1.png"></li>
-		<li class="layer" data-depth="0.40"><img src="images/bg-layer-2.png"></li>
-		<li class="layer" data-depth="0.92"><img src="images/404.png"></li>
-		<li class="layer" data-depth="0.82"><img src="images/yhr.png"></li>
-		<li class="layer" data-depth="0.70"><img src="images/yoda.png"></li>
+		<li class="layer" data-depth="0.00">
+			<picture>
+				<source srcset="images/bg.webp" type="image/webp">
+				<img src="images/bg.png" alt="Star Wars background">
+			</picture>
+		</li>
+		<li class="layer" data-depth="0.60">
+			<picture>
+				<source srcset="images/bg-layer-1.webp" type="image/webp">
+				<img src="images/bg-layer-1.png" alt="Star Wars space dust and stars layer 1">
+			</picture>
+		</li>
+		<li class="layer" data-depth="0.40">
+			<picture>
+				<source srcset="images/bg-layer-2.webp" type="image/webp">
+				<img src="images/bg-layer-2.png" alt="Star Wars space dust layer 2">
+			</picture>
+		</li>
+		<li class="layer" data-depth="0.92">
+			<picture>
+				<source srcset="images/404.webp" type="image/webp">
+				<img src="images/404.png" alt="404 Page Not Found text">
+			</picture>
+		</li>
+		<li class="layer" data-depth="0.82">
+			<picture>
+				<source srcset="images/yhr.webp" type="image/webp">
+				<img src="images/yhr.png" alt="Yoda lightsaber reflection glowing text">
+			</picture>
+		</li>
+		<li class="layer" data-depth="0.70">
+			<picture>
+				<source srcset="images/yoda.webp" type="image/webp">
+				<img src="images/yoda.png" alt="Yoda holding a lightsaber">
+			</picture>
+		</li>
 		</ul>
 	</div>
 	<script src="parallax.js"></script>
