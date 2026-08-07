@@ -5,6 +5,9 @@ Parallax 404 Page
 
 It's inspired from the GitHub 404 page with Star Wars. 
 
+### 🌐 Live Demo
+Visit the live demo on GitHub Pages: **[https://jashjacob.github.io/StarWars-Parallax-404-Page/](https://jashjacob.github.io/StarWars-Parallax-404-Page/)** 
+
 ## Performance & Asset Optimization
 
 The original raw `.png` images had a total payload size of **3.78 MB**.
